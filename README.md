@@ -1,10 +1,10 @@
 # Plane Radar
 
-<img width="800" height="450" alt="plane-radar" src="https://github.com/user-attachments/assets/716d0992-dab8-47ba-8f1a-2aec7f607419" />
+A live **ADS-B radar** on a 1.28″ round display: the aircraft flying around you, drawn on a sonar-style screen with their callsign, type and altitude, updated about once a second. Firmware for an **ESP32-C3 Super Mini** with a **GC9A01** round display (240×240).
 
-**3D printed case (STL + assembly):** [MakerWorld](https://makerworld.com/en/models/2872376-esp32-plane-radar-live-ads-b-on-a-round-display#profileId-3207083) · **Firmware:** [Releases](https://github.com/MatixYo/ESP32-Plane-Radar/releases)
+**Firmware:** [Releases](https://github.com/LorenzoColuccia/PLANE-RADAR/releases) — the full-flash image for a first install by USB, and the signed update files that radars install by themselves over Wi‑Fi when their owner asks (see **Firmware updates**).
 
-Firmware for an **ESP32-C3 Super Mini** and a **1.28″ round GC9A01** display (240×240). Shows a circular **ADS-B radar** around your configured location, with **WiFiManager** for first-time setup.
+Based on [ESP32-Plane-Radar](https://github.com/MatixYo/ESP32-Plane-Radar) by MatixYo (MIT license, see [LICENSE](LICENSE)). Aircraft data from [adsb.fi](https://adsb.fi/).
 
 ## What it does
 
